@@ -1,0 +1,109 @@
+body {
+    background-image: url('background.png');
+    display: flex;
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    
+
+}
+.conteudo {
+    flex:0 1 525px;
+    margin-right: 45px;
+}
+
+.conteudo h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 56px;
+}
+.conteudo p{
+    line-height: 26px;
+}
+
+
+
+
+.gratis {
+    background-color: hsl(248, 32%, 49%);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 8px 0 0 hsl(0, 0%, 0%, 14.69%);
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0 1 525px;
+
+}
+
+
+form {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 540px;
+    min-height: 474px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 4px 4px 0px hsla(0, 0%, 0% ,25%);
+    border-radius: 4px;
+    
+}
+
+form p {
+    color: #BAB7D4;
+    font-size: 11px;
+    font-weight: 500;
+
+}
+
+form p strong {
+    color: hsl(0, 100%, 74%);
+}
+input {
+    display: inline;
+    min-width: 460px;
+    min-height: 56px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 32px;
+}
+
+input::placeholder {
+
+    color: #3D3B48;
+    letter-spacing: 0.25px;
+    opacity: 0.75;
+}
+
+
+button {
+    all: unset;
+    min-width: 460px;
+    min-height: 56px;
+    color: white;
+    background-color: #38CC8B;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0pc -4px 0 0 hsl(0, 0%, 0%, 9.09%);
+    margin-top: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #77E2B3;
+}
+
